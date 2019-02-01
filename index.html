@@ -43,6 +43,24 @@
           <h1 class="mt-5">E & P Summon Simulator</h1>
           <p class="lead">Spin the wheel!</p>
           <button onclick="SetProbability()" type="button" class="btn btn-primary">Summon!</button>
+          <script>
+          function SetProbability(){
+              var counter=0;
+              var perc = document.getElementById('perc').value + '%';
+              var probabilitilized = new Probability(
+            {
+               p: perc,    /* the probability by that ... */
+               f: function () {/* ... this function is called */
+                counter++;
+          }
+      });
+          for (var i = 0; i < 100; i++) {
+              probabilitilized();
+    }
+    document.getElementById('results').innerHTML = 
+    'Out of 100 tries the function was executed ' + counter.toString() + ' times.'
+  }
+          </script>
         </div>
       </div>
     </div>
