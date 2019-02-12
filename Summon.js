@@ -34,20 +34,35 @@ function summonFire() {
  fireHeroes[4].src = 'misc/fire-heroes/boldtusk.png';
  //Colen
  fireHeroes[5] = new Image();
+ fireHeroes[5].name = "Colen";
  fireHeroes[5].src = 'misc/fire-heroes/colen.png';
  //Gormek
  fireHeroes[6] = new Image();
+ fireHeroes[6].name = "Gormek";
  fireHeroes[6].src = 'misc/fire-heroes/gormek.png';
  //Kelile
  fireHeroes[7] = new Image();
+ fireHeroes[7].name = "Kelile";
  fireHeroes[7].src = 'misc/fire-heroes/kelile.png';
  //Scarlett
  fireHeroes[8] = new Image();
+ fireHeroes[8].name = "Scarlett";
  fireHeroes[8].src = 'misc/fire-heroes/scarlett.png';
  
  //Azlar
  fireHeroes[9] = new Image();
+ fireHeroes[9].name = "Azlar";
  fireHeroes[9].src = 'misc/fire-heroes/azlar.png';
+
+//Elena
+fireHeroes[10] = new Image();
+fireHeroes[10].name = "Elena";
+fireHeroes[10].src = 'misc/fire-heroes/elena.png';
+
+ //Marjana
+ fireHeroes[11] = new Image();
+ fireHeroes[11].name = "Marjana";
+ fireHeroes[11].src = 'misc/fire-heroes/marjana.png';
 
 //creates the images one by one in a for loop using variable "i"
 var i = 0,
