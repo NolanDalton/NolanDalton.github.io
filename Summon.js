@@ -15,6 +15,7 @@ function summonFire() {
  //Azar and per HERO attributes
  fireHeroes[0] = new Image();
  fireHeroes[0].name = "Azar";
+ fireHeroes[0].chance = .023;
  fireHeroes[0].src = 'misc/fire-heroes/azar.png';
  //Hawkmoon
  fireHeroes[1] = new Image();
@@ -70,11 +71,14 @@ var i = 0,
 for (; i< fireHeroes.length;i++) {
     var img = new Image();
     img.src = fireHeroes[i].src;
+    img.chance = fireHeroes[i].chance;
     //EDIT THE ATTRIBUTES OF THE LISTED IMAGES (I.E. : Spacing, size, etc)
     img.width = '163';
     img.height = '250';
     img.alt = fireHeroes[i].name;
     document.getElementById('Fire-Summon').appendChild(img);
+    summonFire = function(){};
+   
 }
 
 }
@@ -92,4 +96,3 @@ function summonEvent() {
 
 
 }
-
