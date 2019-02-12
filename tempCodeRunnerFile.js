@@ -1,21 +1,3 @@
-// JavaScript source code
-var summonTypes = ["Epic Hero", "Epic Troop", "Elemental Fire", "Elemental Ice", "Elemental Nature", "Elemental Holy", "Elemental Dark"];
-var epicHero = summonType[0];
-var epicTroop = summonType[1];
-var elementalFire = summonType[2];
-var elementalIce = summonType[3];
-var elementalNature = summonType[4];
-var elementalHoly = summonType[5]
-var elementalDark = summonType[6];
-
-function getSummonType() {
-
-}
-
-function summonEpicHero() {
-
-
-}
 function summonFire() {
  //image array for the fire heroes (0-3 = 3*, 4-8 = 4*, 14-24 = 5*) These are ALL fire heroes
 var fireSummon = [];
@@ -57,18 +39,3 @@ fireHeroes[10].src = 'misc/fire-heroes/azlar.png';
 fireHeroes.forEach(summonFire);
 
 }
-
-function summonEpicTroop() {
-
-
-}
-
-function summonElemental() {
-
-
-}
-function summonEvent() {
-
-
-}
-
