@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="summons.js"></script>
   <head>
 
     <meta charset="utf-8">
@@ -42,13 +41,14 @@
         <div class="col-lg-12 text-center">
           <h1 class="mt-5">E & P Summon Simulator</h1>
           <p class="lead">Spin the wheel!</p>
-          <button onclick="SetProbability()" type="button" class="btn btn-primary">Summon!</button>
-          <script>
-          function SetProbability(){
+       <!-- <button onclick="SetProbability()" type="button" class="btn btn-primary">Summon!</button> -->
+          <button onClick="summonFire()" type ="button" class="btn btn-primary">Summon!</button>
+                    <script>
+  /*        function SetProbability(){
               var probabilitilized = new Probability(
             {
-               p: '72%',    /* the probability by that ... */
-               f: function () {/* ... this function is called */
+               p: '72%',    // the probability by that ... 
+               f: function () {// ... this function is called 
                 counter++;
               }
       });
@@ -57,13 +57,15 @@
               }
               document.getElementById('results').innerHTML = 
                 'Out of 100 tries the function was executed ' + counter.toString() + ' times.'
-          }
+           } */
           </script>
+          <ul id="Fire-Summon" class="body"></ul>
         </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
+    <script src="Summon.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="Probability.js"></script>

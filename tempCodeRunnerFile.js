@@ -36,6 +36,6 @@ fireHeroes[9].src = 'misc/fire-heroes/azlar.png';
 fireHeroes[10] = new Image();
 fireHeroes[10].src = 'misc/fire-heroes/azlar.png';
 
-fireHeroes.forEach(summonFire);
+console.log(fireHeroes.forEach(summonFire));
 
 }
