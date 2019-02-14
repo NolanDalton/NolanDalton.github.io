@@ -2338,6 +2338,18 @@ fieldset:disabled a.btn {
   border-color: #007bff;
 }
 
+.btn-holy {
+  color: #fff;
+  background-color: #f9e31d;
+  border-color: #f9e31d;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #5c0be0;
+  border-color: #5c0be0;
+}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #0069d9;
